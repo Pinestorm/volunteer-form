@@ -33,3 +33,11 @@ fieldset {
 hr {
   border-color: rgba(112, 173, 85, .3);
 }
+
+input,
+textarea,
+select,
+[type="radio"] + label::before,
+[type="checkbox"] + label::before {
+  border: 2px solid #6e8c62;
+}
